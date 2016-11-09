@@ -1,0 +1,387 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>X-1</title>
+		<link rel="stylesheet" href="reset.css">
+		<style type="text/css">
+			body{	
+				background-color: black;			
+				margin: 0;
+				padding: 0;
+				font-family: 'Poiret One', cursive;
+				color: white;
+				word-wrap:break-word;
+			}
+			h1 {
+			  font-size: 3rem;
+			  margin-top: 0;
+			  letter-spacing: .3rem;
+			}	
+			.pages{
+				height: 120%;		
+			}	
+			#page2 {
+				background: black;
+				height: 230%;			
+			}
+			#page2 #figure{
+				background: black;	
+				text-align: center;		
+				font-size: 24px;		
+			}
+			#page3 {
+				background: #1D1B1B;
+				height: 120%;	
+			}
+			#page4_1 {
+				background: black;
+				height: 100%;
+			}			
+			#page5 {
+				background: #1D1B1B;
+				height: 150%;
+			}
+			#page6 {
+				background: black;
+				height: 100%;
+			}
+			#page7 {
+				background: #1D1B1B;
+				height: 80%;	
+				font-size: 24px;			
+			}
+			#footer {
+				 height: 50px; 
+				 background: #1D1B1B;
+				 text-align: center;
+			}			
+			.container {
+				margin-right: 20%;
+				margin-left: 20%;
+				padding-top: 3%;
+			}
+			#pic{
+				left: 400px;
+    		top: 0px;
+    		float: left;    		
+    		box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+			img {
+				border-radius: 5px;
+				width: 450px;
+				height: 550px;
+				margin-right: 0;
+			}
+			#about_us img {
+				width: 150;
+				height: 200;
+				margin-top: 50px;
+			}
+			#footer img {
+				width: 80px;
+				height: 15px;
+			}
+			#footer a {
+				color: white;
+				text-decoration: none;
+			}
+			.introduct{
+				margin-left: auto;				
+				float: right;
+				height: 300px;
+				width: 300px;
+				font-size: 24px;
+			}			
+			#story {
+				font-size: 24px;
+				width: 750px;
+			}
+			#content {
+				width: 720px;
+				margin-left: 1%;
+			}
+			#wayne , #veck {
+				float: left;
+				width: 260px;
+				margin-right: 12%;
+			}			
+			#advisor{
+				float: left;
+				margin-top: 40px;
+				font-size: 20px;
+				font-style: bold;
+			}
+			#advisor ul {
+				list-style-type: circle;
+			}
+			#advisor li {				
+				line-height: 200%
+			}
+			#advisor p {
+				font-size: 24px;
+			}
+			form {
+				width: 300px;
+				height: 100px;
+			}
+			ul {
+				list-style-type: circle;
+			}
+			#goal_list {
+				margin-top: 45px;
+				line-height: 200%;			
+				font-size: 24px;				
+			}
+			
+			@media screen and (max-width: 1100px) {
+				.pages {
+					width: 1100px;
+					height: 150%;
+				}	
+				#page3, #page6, #page7{
+					width: 1100px;
+					height: 150%;
+				}
+				#page4_1 {
+					width: 100%;
+					overflow-y: auto; 
+				}
+			}	
+
+		</style>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>		
+		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+		<!-- Page 2-->
+		<div id="page2" class="pages">
+			<div class="container">				
+				<div id="story" hidden>
+				<h1>Our Story</h1><br>
+			
+				We are <a href="#page5" style="color: lightblue; text-decoration: none;">entrepreneurs</a> focused on solving your daily charging anxiety. <br><br>
+			
+				Our dream is to provide you a high quality and convenient charging service to relieve your daily "charging anxiety" If you are constantly monitoring what percentage of power you have left in your devices because it is critical to your lifestyle to have a fully charged battery, then we have a solution to your dilemma. The new X-1 Patent pending product will eliminate this "charging anxiety" and enable you to go through your day without concern that your battery will let you down during a critical time. 
+				<br><br>
+
+				Your contribution can help us commercialize our nearly developed prototype, "X-1”. We need your help to take the X-1 project to the next step. By contributing to the X-1 seed fund raising you will help us create a solution to your ‘charging anxiety’.
+				<br><br><br><br>
+
+				<h1>"X-1" (Patent Pending)</h1><br>
+				X-1 is a wireless charging power bank pocket that allows you to recharge your iPhone 5s/6/6s after closing the pocket. X-1 is light, convenient and made of leather.
+        
+				</div>
+				<br><br>
+				<div id="figure" hidden>
+					<img src="product_0.JPG"><br>
+					X-1 in charging mode
+				</div>
+			</div>
+		</div>
+		<!-- End of Page 2-->
+
+		<!-- Page 3-->
+		<div id="page3">
+			<div class="container" id="frontX" hidden>
+				<h1>Front X-1</h1>
+				<div id="pic">
+					<img src="front.JPG" border="0" usemap="#frontMap" alt="" />
+					<map name="frontMap" id="frontMap">
+				 		<area alt="LED Indicator" href="#page3" shape="poly" coords="192,18,193,44,311,42,307,20" 
+				 		onmouseover="showInfo(1);" />
+				    <area alt="LED Indicator" href="#page3" shape="poly" coords="264,95,262,161,354,161,355,96" 
+				    onmouseover="showInfo(1);" />
+				    <area alt="Size, Weight and Material" href="#page3" shape="poly" coords="280,178,282,243,368,243,367,179" onmouseover="showInfo(1);" />
+				    <area alt="Size, Weight and Material" href="#page3" shape="poly" coords="259,286,260,300,402,299,396,284" onmouseover="showInfo(1);" />
+				    <area alt="Snap Fastener/Switch" href="#page3" shape="poly" coords="152,211,155,286,246,285,246,216" onmouseover="showInfo(1);" />
+				    <area alt="Snap Fastener/Switch" href="#page3" shape="poly" coords="78,313,80,330,201,331,202,315" onmouseover="showInfo(1);" />
+				    <area alt="Charging Efficiency" href="#page3" shape="poly" coords="221,339,221,390,298,390,291,338" onmouseover="showInfo(1);" />
+				    <area alt="Charging Efficiency" href="#page3" shape="poly" coords="254,421,386,421,386,434,251,439" onmouseover="showInfo(1);" />
+				    <area alt="Battery Capacity" href="#page3" shape="poly" coords="97,391,95,459,194,461,191,392" onmouseover="showInfo(1);" />
+				    <area alt="Battery Capacity" href="#page3" shape="poly" coords="68,470,69,493,185,491,185,470" onmouseover="showInfo(1);" />				    			    
+					</map>
+				</div>
+				<div id="introduct" class="introduct">
+					Move your mouse on the photo to see the introduction.
+				</div>			
+			</div>
+		</div>
+		<!-- End of Page 3-->		
+
+		<!-- Page 4_1-->
+		<div id="page4_1" class="">
+			<div class="container" id="goals" hidden>
+				<h1>Development Goals</h1>
+				<div id="goal_list">
+					<ul>
+						<li>LED Indicator: Blinking speed indicates level of charge</li>
+						<li>Size & Weight: Smaller and lighter</li>
+						<li>Material: Made of higher quality leather with more aesthetically pleasing design</li>
+						<li>Charging Efficiency: 1% ~ 2% per minute</li>
+						<li>Battery Capacity: 3000 ~ 5000 mAh (iPhone 6 has battery capacity equal to 1810 mAh)</li>
+						<li>Strap Holder: A pocket/card holder</li>
+						<li>Product Specialization: Specialize for different group of users</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Page 4_1-->
+
+		<!-- Page 5-->
+		<div id="page5" class="pages">
+			<div class="container" id="about_us" hidden>
+				<h1>Who We Are</h1>
+				<div id="content">
+					<div id="wayne">
+						<img src="wayne.jpeg">
+						<br><br><br>		
+						<ul style="list-style-type: circle; line-height: 135%;">
+							<li>Jung Wei Hung</li>
+							<li>Education: Pursued energy management PhD at Penn State, received finance & banking B.B.A from National Chung Cheng University, and minored in earth and environmental science </li>
+							<li>Main Focus: Wireless Charging, Energy Management, and Project Design</li>
+							<li>X-1 Contribution: Product & website design and project management</li>
+						</ul>
+						
+					</div>
+					<div id="veck">
+						<img src="veck.jpeg">
+						<br><br><br>					
+						<ul style="list-style-type: circle; line-height: 135%;">
+							<li>Yi Kai Hsiao</li>
+							<li>Education: Received computer science master degree from National Cheng Chi University, bachelor degree of information management and minored in computer science and information engineering from National Chung Cheng University</li>
+							<li>Main Focus: Electrical hardware design and computer engineering</li>
+							<li>X-1 Contribution: Product & website design and electronics modules integration</li>
+						</ul>				
+					</div>
+					<div id="advisor">
+						<p>Volunteer Advisors</p><br>
+						<ul>
+							<li>Marketing Strategies Advisor: Yen Lin Chen, Applied Economics PhD Candidate at Penn State.</li>
+							<li>Language & Culture Advisor for Business Development in the U.S.: George Plautz, former director, English Language Institute, University of Utah.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End of Page 5-->		
+
+		<!-- Page 6-->
+		<div id="page6">			
+				<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1wvBv3dA6ScByTi1pDcqTQ5vw-n32CurOfcSUk2uWq7o&font=Bitter-Raleway&lang=en&timenav_position=top&initial_zoom=2' width='100%' height='100%' frameBorder='0'></iframe>
+		</div>
+		<!-- End of Page 6-->	
+
+		<!-- Page 7-->
+		<div id="page7" class="">
+			<div class="container" id="donation" hidden>
+				<h1>Contribution</h1><br>
+				<p>By contributing to the X-1 project to help create a better solution to your charging anxiety right away!
+				<br><br>
+				With your contribution, the X-1 project can be further developed and commercialized. Thank you very much!
+				</p>
+				<br>
+				<p>Email：<a href="mailto:jung@wiheart.io?Subject='X-1 Project Mail'" target="_top" style="text-decoration: none; color: white;">jung@wiheart.io</a></p>
+				<br>				
+		</div>
+		</div>
+		<!-- End of Page 7-->	
+
+		<div id="footer">
+			This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.<br>
+			Copyright 2016 © All Right Reserved Yi-Kai Hsiao & Jung-Wei Hung &nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-nd/4.0/80x15.png" /></a>
+		</div>
+
+		<script>
+
+			$(document).ready(function(){
+				$('#story').fadeIn(2000);
+				$('#figure').fadeIn(2000);
+			});
+
+			var data = {
+				"LED Indicator": {
+					"name": "LED Indicator",
+					"intro": "Lets you know if there is sufficient power"
+				},
+				"Size, Weight and Material": {
+					"name": "Size, Weight and Material",
+					"intro": "Length: 7.5 inches<br><br>Width: 3.9 inches<br><br>Height: 1.2 inches<br><br>Weight: around 7.5 oz<br><br>Material: made of leather"
+				},
+				"Snap Fastener/Switch": {
+					"name": "Snap Fastener/Switch",
+					"intro": "Closing or releasing fastener controls power on/off functionality"
+				},
+				"Charging Efficiency": {
+					"name": "Charging Efficiency",
+					"intro": "Current charging efficiency is about 0.3% ~ 0.5% per minute"
+				},
+				"Battery Capacity": {
+					"name": "Battery Capacity",
+					"intro": "Current battery capacity is 2000 mAh (iPhone 6 has battery capacity equal to 1810 mAh)"
+				},
+				"Safety Strap": {
+					"name": "Safety Strap",
+					"intro": "Designed to hold smart phone safely in X-1"
+				},
+				"Strap Holder": {
+					"name": "Strap Holder",
+					"intro": "Holds safety strap when not in use"
+				}
+			};
+
+			function showInfo(side){							
+				var elementId = event.target.alt;
+				if(side == 1){					
+					$('#introduct')
+						.html('')
+						.hide()
+						.append('<h2>' + data[elementId].name + '</h2><br><br>')
+						.append(data[elementId].intro + '<br><br>')
+						.append('<a href="#page7" style="color: lightblue; text-decoration: none;">contribute</a>')
+						.fadeIn(500);						
+				} else if(side == 2){
+					$('#introduct2')
+						.html('')
+						.hide()
+						.append('<h2>' + data[elementId].name + '</h2><br><br>')
+						.append(data[elementId].intro + '<br><br>')
+						.append('<a href="#page7" style="color: lightblue; text-decoration: none;">contribute</a>')
+						.fadeIn(500);						
+				}
+			}		
+
+			 $(window).scroll(function() {
+			 	var position = $(window).scrollTop();   
+   			if(position >= 800 && position < 1500) { // show page3
+   				if($('#frontX').is(":visible")  == false){
+   					$('#frontX').fadeIn(800);
+   				}
+       	} else if(position >= 1500 && position < 2300){
+   				if($('#goals').is(":visible")  == false){ // show page4
+   					$('#goals').fadeIn(800);
+   				}   
+       	} else if(position >= 2300 && position < 3000) {
+   				if($('#about_us').is(":visible")  == false){ // show page5
+   					$('#about_us').fadeIn(800);
+   				}   
+       	} else if(position >= 3800 && position < 4000) {
+   				if($('#donation').is(":visible")  == false){ // show page6
+   					$('#donation').fadeIn(800);
+   				}   
+       	}
+		});
+
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-44048995-7', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>
